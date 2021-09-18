@@ -1,0 +1,72 @@
+.birthday {
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  width: 350px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  height: fit-content;
+  font-family: 'Billabong', sans-serif;
+
+  &__icon {
+    margin-top: 40px;
+    height: 96px;
+    width: 144px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__desc {
+    margin: 20px 20px 5px;
+    text-align: center;
+  }
+
+  &__question {
+    color: #0095f6;
+  }
+
+  &__selects {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__btn {
+    width: 80%;
+    margin: 0 auto;
+
+    button {
+      width: 100%;
+      background-color: #0095f6;
+      border: 1px solid #0095f6;
+      color: white;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+    }
+  }
+
+  &__btnBack {
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+    .back-link {
+      text-decoration: none;
+      color: #0095f6;
+      margin-top: 15px;
+    }
+  }
+
+
+}

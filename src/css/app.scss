@@ -1,0 +1,11 @@
+// app global css in SCSS form
+@import './login';
+@import './registration';
+@import './birthday';
+@import './confirm';
+@import './changeNumber';
+
+* {
+  margin: 0;
+  padding: 0;
+}
